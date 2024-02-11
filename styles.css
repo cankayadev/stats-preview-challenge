@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+/* 
+font-family: 'Inter',
+sans-serif;
+font-family: 'Lexend Deca',
+sans-serif; */
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    font-weight: bold;
+    background-image: linear-gradient(120deg, #ff0084 0%, #33001b 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 0.3s ease-out;
+}
+
+.attribution a:hover {
+    background-image: linear-gradient(120deg, #33001b 0%, #ff0084 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.7);
+}
+
+/* General styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --very-dark-blue: hsl(233, 47%, 7%);
+     --dark-desaturated-blue: hsl(244, 38%, 16%);
+     --soft-violet: hsl(277, 64%, 61%);
+     --white: hsl(0, 0%, 100%); --slightly-transparent-white: hsla(0, 0%, 100%, 0.75); --slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+    --standard-margin: 2rem;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: var(--very-dark-blue);
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.container {
+    background-color: var(--dark-desaturated-blue);
+}
+
