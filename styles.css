@@ -42,11 +42,14 @@ sans-serif; */
 body {
     font-family: 'Lexend Deca', sans-serif;
     background-color: var(--very-dark-blue);
+    color: var(--slightly-transparent-white);
+    min-height: 100vh;
 }
 
 p {
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 1.75;
+    margin: 1rem 0 2rem 0;
 }
 
 img {
@@ -55,16 +58,53 @@ img {
 
 ul {
     list-style-type: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+li {
+    margin-top: 1.5rem;
+}
+
+h1, 
+h2 {
+    color: #fff;
+    letter-spacing: normal;
+    text-transform: none;
+}
+
+.purple {
+    color: var(--soft-violet);
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .container {
     background-color: var(--dark-desaturated-blue);
+    border: 2px solid red;
     margin: 50px 20px;
     padding: 0 0 20px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: max-content;
+    max-width: 450px;
+    text-align: center;
+}
+
+.card {
+    padding: 1rem;
 }
 
 .container .card picture img {
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 2rem;
 }
 
