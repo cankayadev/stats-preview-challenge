@@ -72,6 +72,10 @@ h2 {
     text-transform: none;
 }
 
+h2 {
+    margin-bottom: .5rem;
+}
+
 .purple {
     color: var(--soft-violet);
 }
@@ -116,12 +120,10 @@ h2 {
         justify-content: center;
         align-items: center;
         flex-direction: row-reverse;
-        height: min-content;
+        height: max-content;
         min-width: 700px;
-        max-width: 1100px;
         text-align: start; 
     }
-
 
 .card {
     padding: 3rem;
@@ -132,8 +134,7 @@ li {
 }
 
 img {
-    object-fit: cover;
+    object-fit: contain;
     /* vielleicht muss die folgende line nicht sein */
-    width: 100%;
 }
 }
